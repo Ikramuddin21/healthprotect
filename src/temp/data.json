@@ -1,0 +1,14 @@
+{
+    "hero": [
+        {
+            "title": "Service is our first priority.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea soluta exercitationem adipisci sed, dolor perferendis commodi labore, nemo eaque.",
+            "img": "/banner.png"
+        },
+        {
+            "title": "Service is our first priority.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea soluta exercitationem adipisci sed, dolor perferendis commodi labore, nemo eaque.",
+            "img": "/banner2.png"
+        }
+    ]
+}
