@@ -1,0 +1,63 @@
+.header {
+    background-color: coral;
+}
+
+.header-top {
+    padding: 10px 0;
+    color: black;
+    background: #F3F6FF;
+    justify-content: space-around;
+}
+
+.header-top-icon {
+    top: 3px;
+    margin-right: 5px;
+    position: relative;
+}
+
+.navbar {
+    max-width: 1480px;
+    margin: 0 auto;
+    height: 70px;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.logo a {
+    color: white;
+}
+
+.list-items li {
+    margin: 0 15px;
+}
+
+.list-items li a {
+    color: white;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+    transition:  0.5s;
+}
+
+.list-items li a:hover {
+    border-bottom: 3px solid white;
+    color: black;
+}
+
+.header-login-btn {
+    border: none;
+    color: white;
+    background: rgb(45, 41, 41);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: 3px solid transparent;
+}
+
+.header-login-btn:hover {
+    background: rgb(6, 6, 6);
+}
+
+.header-login-btn:focus {
+    background: black;
+    outline: 3px solid gray;
+}
