@@ -1,10 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import './Header.css';
 
 const Header = () => {
+
+  const [stickyNav, setStickyNav] = useState(false);
+
   return (
     <header>
       {/* header top */}

@@ -1,0 +1,56 @@
+{
+    "hero": [
+        {
+            "title": "Service is our first priority.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea soluta exercitationem adipisci sed, dolor perferendis commodi labore, nemo eaque.",
+            "img": "https://i.ibb.co/88wgqfr/banner.png"
+        },
+        {
+            "title": "Service is our first priority.",
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima ea soluta exercitationem adipisci sed, dolor perferendis commodi labore, nemo eaque.",
+            "img": "https://i.ibb.co/BNZzZXG/banner2.png"
+        }
+    ],
+    "services": [
+        {
+            "id": 1,
+            "title": "Blood Cancer",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/DKJmzT7/service1.png"
+        },
+        {
+            "id": 2,
+            "title": "Eye Treatment",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/V9dBX5w/service2.png"
+        },
+        {
+            "id": 3,
+            "title": "Allergic Issue",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/d78xsXb/service3.png"
+        },
+        {
+            "id": 4,
+            "title": "Body Surgery",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/Rb5kvvJ/service4.png"
+        },
+        {
+            "id": 5,
+            "title": "Dental Care",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/yphdC9j/service5.png"
+        },
+        {
+            "id": 6,
+            "title": "Brain Cancer",
+            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "img": "https://i.ibb.co/TgQHBjy/service6.png"
+        }
+    ]
+}
+
+
+
+
