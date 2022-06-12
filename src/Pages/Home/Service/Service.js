@@ -12,9 +12,9 @@ const Service = (props) => {
             </div>
 
             <div className="service-text-area">
-                <h3>{title}</h3>
-                <p>{description.split(" ").slice(0, 15).join(" ")}</p>
-                <button>See More</button>
+                <h3 className="service-title">{title}</h3>
+                <p className="service-description">{description.split(" ").slice(0, 20).join(" ")}</p>
+                <button className="see-more-btn">See More</button>
             </div>
         </div>
     );

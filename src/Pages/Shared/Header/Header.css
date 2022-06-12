@@ -1,14 +1,20 @@
 .header-top {
+    background: #F3F6FF;
+}
+
+.header-top > div {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
     padding: 10px 0;
     font-size: 17px;
     color: black;
-    background: #F3F6FF;
     justify-content: space-around;
 }
 
 .header-top-icon {
-    top: 3px;
     margin-right: 5px;
+    top: 3px;
     position: relative;
 }
 
@@ -17,16 +23,11 @@
 }
 
 .navbar {
-    max-width: 1520px;
-    width: 95%;
+    max-width: 1300px;
     margin: 0 auto;
     padding: 0 25px;
     height: 70px;
     justify-content: space-between;
-}
-
-.logo a {
-    color: white;
 }
 
 .list-items li {
@@ -48,18 +49,13 @@
 .header-login-btn {
     border: none;
     color: white;
-    background: #2d2929;
+    background: black;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
     outline: 3px solid transparent;
 }
 
-.header-login-btn:hover {
-    background: black;
-}
-
 .header-login-btn:focus {
-    background: black;
     outline: 3px solid gray;
 }

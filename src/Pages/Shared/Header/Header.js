@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
+import logo from '../../../images/logo5.png';
 import './Header.css';
 
 const Header = () => {
@@ -11,21 +12,23 @@ const Header = () => {
   return (
     <header>
       {/* header top */}
-      <div className="header-top d-flex items-center">
-        <h5>
-          <AiOutlinePhone className="header-top-icon" />
-          <span>+8054 674 76570</span>
-        </h5>
-        <h5>
-          <FiMail className="header-top-icon" />
-          <span>user@example.com</span>
-        </h5>
+      <div className="header-top">
+        <div className="d-flex items-center">
+          <h5>
+            <AiOutlinePhone className="header-top-icon" />
+            <span>+8054 674 76570</span>
+          </h5>
+          <h5>
+            <FiMail className="header-top-icon" />
+            <span>user@example.com</span>
+          </h5>
+        </div>
       </div>
-      
+
       {/* navigation bar */}
       <div className="nav-container">
         <nav className="navbar d-flex items-center">
-          <h2 className="logo"><Link to="/">healthprotect</Link></h2>
+          <Link to="/"><img src={logo} width="68" alt="Logo" /></Link>
           <ul className="list-items d-flex items-center">
             <li><Link to="/home">Home</Link></li>
             <li><Link to="/services">Services</Link></li>

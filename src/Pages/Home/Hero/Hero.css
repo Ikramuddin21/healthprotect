@@ -1,7 +1,6 @@
 .hero {
     background: #F3F6FF;
     overflow: hidden;
-    margin-bottom: 60px;
 }
 
 .slick-prev {
@@ -60,19 +59,19 @@
 
 .appointment-btn {
     border: none;
-    color: white;
-    background: #2d2929;
     padding: 10px 20px;
     border-radius: 5px;
     font-size: 16px;
-    border: 2px solid transparent;
+    color: black;
+    background: transparent;
+    border: 2px solid black;
     transition: 0.5s;
 }
 
 .appointment-btn:hover {
-    background: transparent;
-    border: 2px solid black;
-    color: black;
+    color: white;
+    background: black;
+    border: 2px solid transparent;
 }
 
 .hero-img-area {

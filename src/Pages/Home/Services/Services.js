@@ -13,15 +13,17 @@ const Services = () => {
     }, []);
 
     return (
-        <div className="services">
-            <h2>Our HealthCare Services</h2>
-            <div className="services-wrapper">
-                {
-                    services.map(service => <Service
-                        key={service.id}
-                        service={service}
-                    />)
-                }
+        <div className="services d-flex items-center">
+            <div>
+                <h2 className="area-heading">Our HealthCare Services</h2>
+                <div className="services-wrapper">
+                    {
+                        services.map(service => <Service
+                            key={service.id}
+                            service={service}
+                        />)
+                    }
+                </div>
             </div>
         </div>
     );

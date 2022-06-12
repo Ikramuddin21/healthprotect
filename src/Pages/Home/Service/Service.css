@@ -1,4 +1,40 @@
 .service {
-    width: 300px;
-    margin: 0 auto;
+    max-width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    transition: 0.5s;
+    box-shadow: #d8e2e9 0 2px 8px 0;
+}
+
+.service:hover {
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
+
+.service-img-area {
+    margin-bottom: 35px;
+}
+
+.service-title {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.service-description {
+    line-height: 25px;
+    margin-bottom: 20px;
+    color: #656464;
+}
+
+.see-more-btn {
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: black;
+    background: transparent;
+    transition: 0.4s;
+}
+.see-more-btn:hover {
+    color: white;
+    background: black;
 }
