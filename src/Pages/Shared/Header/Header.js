@@ -7,7 +7,19 @@ import './Header.css';
 
 const Header = () => {
 
-  const [stickyNav, setStickyNav] = useState(false);
+  const [fixedNav, setFixedNav] = useState(false);
+
+  // handle fixed navigation bar
+  const handleFixedNav = () => {
+    if(window.scrollY > 290) {
+      setFixedNav(true);
+    }
+    else {
+      setFixedNav(false);
+    }
+  };
+
+  window.addEventListener("scroll", handleFixedNav);
 
   return (
     <header>
@@ -26,7 +38,7 @@ const Header = () => {
       </div>
 
       {/* navigation bar */}
-      <div className="nav-container">
+      <div className={`nav-container ${fixedNav ? "fixed-header" : ""}`}>
         <nav className="navbar d-flex items-center">
           <Link to="/"><img src={logo} width="68" alt="Logo" /></Link>
           <ul className="list-items d-flex items-center">
