@@ -11,7 +11,7 @@ const Header = () => {
 
   // handle fixed navigation bar
   const handleFixedNav = () => {
-    if(window.scrollY > 290) {
+    if(window.scrollY > 350) {
       setFixedNav(true);
     }
     else {

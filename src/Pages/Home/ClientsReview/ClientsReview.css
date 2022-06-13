@@ -1,0 +1,72 @@
+.review {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 80px 25px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-list {
+    margin: 0 -10px;
+}
+
+  .review-wrapper {
+      margin-top: 100px;
+      background-color: white;
+      border-radius: 5px;
+}
+
+.review-img-area img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 8px solid white;
+    border-radius: 100px;
+    position: relative;
+    top: -50px;
+}
+
+.review-text-area {
+    padding: 0 25px 30px;
+}
+
+.review-title {
+    color: coral;
+}
+
+blockquote {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #656464;
+}
+
+blockquote::before {
+    content: "\201C";
+    color: coral;
+    font-size: 25px;
+}
+
+blockquote::after {
+    content: "\201D";
+    color: coral;
+    font-size: 25px;
+    position: absolute;
+}
+
+.slick-dots {
+    bottom: -40px;
+}
+
+.slick-dots li button:before {
+    font-size: 8px;
+    color: coral;
+}
+
+.slick-dots li.slick-active button::before {
+    color: coral;
+    opacity: 1;
+}

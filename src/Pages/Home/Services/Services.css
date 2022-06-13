@@ -1,6 +1,6 @@
 .services {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     background: #edf4fe;
 }
 
@@ -9,16 +9,11 @@
     margin: 0 auto;
     padding: 0 25px;
     text-align: center;
-    justify-content: center;
-}
-
-.area-heading {
-    font-size: 30px;
 }
 
 .services-wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
-    margin-top: 60px;
+    margin-top: 80px;
 }

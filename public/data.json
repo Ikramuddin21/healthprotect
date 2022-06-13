@@ -15,42 +15,69 @@
         {
             "id": 1,
             "title": "Blood Cancer",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/DKJmzT7/service1.png"
         },
         {
             "id": 2,
             "title": "Eye Treatment",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/V9dBX5w/service2.png"
         },
         {
             "id": 3,
             "title": "Allergic Issue",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/d78xsXb/service3.png"
         },
         {
             "id": 4,
             "title": "Body Surgery",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/Rb5kvvJ/service4.png"
         },
         {
             "id": 5,
             "title": "Dental Care",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/yphdC9j/service5.png"
         },
         {
             "id": 6,
             "title": "Brain Cancer",
-            "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio accusantium architecto, tenetur dolor fuga quas expedita accusamus nisi corporis adipisci officiis eos nemo, sint libero labore consectetur vel blanditiis asperiores necessitatibus. Magnam numquam, earum rerum aliquam fugit, inventore debitis a nisi quam alias aperiam repudiandae aut quia quas dignissimos et.",
+            "description": "Health care or healthcare is the maintenance or improvement of health via the prevention, diagnosis, treatment, amelioration, or cure of disease, illness, injury, and other physical and mental impairments in people. Health care is delivered by health professionals and allied health fields. Medicine, dentistry, pharmacy, midwifery, nursing, optometry, audiology, psychology, occupational therapy, physical therapy, athletic training, and other health professions are all part of health care. It includes work done in providing primary care, secondary care, and tertiary care, as well as in public health.",
             "img": "https://i.ibb.co/TgQHBjy/service6.png"
         }
+    ],
+    "clientsReview": [
+        {
+            "id": "1",
+            "name": "Tracey Richmond",
+            "company": "Prosure",
+            "description": "It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme. It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.",
+            "img": "https://i.ibb.co/sJGHpvn/photo-1565464027194-7957a2295fb7.jpg"
+          },
+          {
+            "id": "2",
+            "name": "Connie Britt",
+            "company": "Asimiline",
+            "description": "It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme. It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.",
+            "img": "https://i.ibb.co/vjTSxdy/photo-1570295999919-56ceb5ecca61.jpg"
+          },
+          {
+            "id": "3",
+            "name": "Jessie Norman",
+            "company": "Zinca",
+            "description": "It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme. It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.",
+            "img": "https://i.ibb.co/r44f855/photo-1542744173-05336fcc7ad4.jpg"
+          },
+          {
+            "id": "4",
+            "name": "Finley Waters",
+            "company": "Quotezart",
+            "description": "It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme. It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.",
+            "img": "https://i.ibb.co/WpvsHKS/photo-1593642532973-d31b6557fa68.jpg"
+          }
     ]
 }
-
-
-
 

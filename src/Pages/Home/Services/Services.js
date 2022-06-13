@@ -15,7 +15,7 @@ const Services = () => {
     return (
         <div className="services d-flex items-center">
             <div>
-                <h2 className="area-heading">Our HealthCare Services</h2>
+                <h2>Our HealthCare Services</h2>
                 <div className="services-wrapper">
                     {
                         services.map(service => <Service
