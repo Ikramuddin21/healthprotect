@@ -49,7 +49,7 @@
             "img": "https://i.ibb.co/TgQHBjy/service6.png"
         }
     ],
-    "clientsReview": [
+    "testimonials": [
         {
             "id": "1",
             "name": "Tracey Richmond",
@@ -78,6 +78,48 @@
             "description": "It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme. It’s been an absolute pleasure to work with hope, their response to our brief exceeded expectations and the execution was efficient, professional and very reassuring. I’d fully recommend theme.",
             "img": "https://i.ibb.co/WpvsHKS/photo-1593642532973-d31b6557fa68.jpg"
           }
+    ],
+    "gallery": [
+        {
+            "title": "Laboratory 1",
+            "img": "laboratory1.jpg"
+        },
+        {
+            "title": "Laboratory 2",
+            "img": "laboratory2.jpg"
+        },
+        {
+            "title": "Laboratory 3",
+            "img": "laboratory3.jpg"
+        },
+        {
+            "title": "Laboratory 4",
+            "img": "laboratory4.jpg"
+        },
+        {
+            "title": "Laboratory 5",
+            "img": "laboratory5.jpg"
+        },
+        {
+            "title": "Laboratory 6",
+            "img": "laboratory6.jpg"
+        },
+        {
+            "title": "Laboratory 7",
+            "img": "laboratory7.jpg"
+        },
+        {
+            "title": "Laboratory 8",
+            "img": "laboratory8.jpg"
+        },
+        {
+            "title": "Laboratory 9",
+            "img": "laboratory9.jpg"
+        },
+        {
+            "title": "Laboratory 10",
+            "img": "laboratory10.jpg"
+        }
     ]
 }
 
