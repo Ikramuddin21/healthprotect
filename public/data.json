@@ -120,6 +120,44 @@
             "title": "Laboratory 10",
             "img": "laboratory10.jpg"
         }
+    ],
+    "doctors": [
+        {
+            "id": 1,
+            "name":"Dr. Connie Britt",
+            "title": "Dental",
+            "img": "doctor1.jpg"
+        },
+        {
+            "id": 2,
+            "name":"Dr. Tracey Richmond",
+            "title": "Liver & Gastroenterology",
+            "img": "doctor2.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Dr. Finley Waters",
+            "title": "Medicine",
+            "img": "doctor3.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Dr. Jessie Norman",
+            "title": "Cardiology",
+            "img": "doctor4.jpg"
+        },
+        {
+            "id": 5,
+            "name": "Dr. Tracey Richmond",
+            "title": "Chest Disease Department",
+            "img": "doctor5.jpg"
+        },
+        {
+            "id": 6,
+            "name": "Dr. Karim Khan",
+            "title": "Neuromedicine",
+            "img": "doctor6.jpg"
+        }
     ]
 }
 

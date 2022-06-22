@@ -1,0 +1,38 @@
+.doctors {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    color: white;
+    background: #45544c;
+}
+
+.doctors-wrapper {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
+    text-align: center;
+}
+
+.doctors-wrapper > div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px 20px;
+    margin-top: 80px;
+}
+
+.doctor {
+    max-width: 400px;
+}
+
+.doctor img {
+    border-top-right-radius: 85px;
+    border-bottom-left-radius: 85px;
+}
+
+.doctor-text-area {
+    margin-top: 15px;
+}
+
+.doctor-text-area p {
+    margin-top: 8px;
+    color: coral;
+}
