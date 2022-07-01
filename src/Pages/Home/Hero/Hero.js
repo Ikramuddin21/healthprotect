@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import Slider from 'react-slick';
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import { Link } from 'react-router-dom';
 import './Hero.css';
 
 const Hero = () => {
@@ -10,8 +11,8 @@ const Hero = () => {
 
     useEffect(() => {
         fetch("data.json")
-        .then(res => res.json())
-        .then(data => setHeroInfo(data.hero))
+            .then(res => res.json())
+            .then(data => setHeroInfo(data.hero))
     }, []);
 
     const settings = {
@@ -28,7 +29,9 @@ const Hero = () => {
                         <div className="hero-text-area">
                             <h1>{info.title}</h1>
                             <p>{info.description}</p>
-                            <button className="appointment-btn">Appointment</button>
+                            <Link to="/appointment">
+                                <button className="appointment-btn">Appointment</button>
+                            </Link>
                         </div>
                         <div className="hero-img-area">
                             <img src={info.img} alt="" />

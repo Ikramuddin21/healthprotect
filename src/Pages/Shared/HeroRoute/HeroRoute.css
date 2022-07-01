@@ -1,0 +1,30 @@
+.heroRoute {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../../../images/doctorsBanner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.heroRoute-wrapper {
+    height: 500px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.heroRoute-wrapper h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.heroRoute-wrapper a {
+    color: lightgray;
+    padding-right: 10px;
+    border-right: 3px solid white;
+}
+
+.heroRoute-wrapper span {
+    color: coral;
+    padding-left: 10px;
+}

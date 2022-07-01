@@ -1,0 +1,32 @@
+.appointment {
+    max-width: 1300px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.appointment h1 {
+    margin-bottom: 80px;
+    font-size: 40px;
+}
+
+.appointment h1 span {
+    color: coral;
+}
+
+.appointment select, input {
+    width: 40%;
+    height: 80px;
+    padding-left: 10px;
+    font-size: 17px;
+    transition: 0.3s;
+}
+
+.appointment select:hover,
+.appointment input:hover {
+    background: rgb(239, 239, 239);
+}
+
+.appointment textarea {
+    width: 80%;
+    font-size: 17px;
+}

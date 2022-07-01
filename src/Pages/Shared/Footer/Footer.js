@@ -12,7 +12,9 @@ const Footer = () => {
         <footer className="footer">
             <div className="footer-wrapper d-flex">
                 <div className="footer-left">
-                    <img src={logo} alt="Logo" />
+                    <Link to="/">
+                        <img src={logo} alt="Logo" />
+                    </Link>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo a repudiandae nobis sapiente ab magnam sequi ut praesentium ipsam recusandae.</p>
                     <div className="footer-left-location">
                         <p><FiMail className="footer-icon" />

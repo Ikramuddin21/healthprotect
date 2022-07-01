@@ -7,17 +7,19 @@ import Services from './Pages/Home/Services/Services';
 import Testimonials from './Pages/Home/Testimonials/Testimonials';
 import Footer from './Pages/Shared/Footer/Footer';
 import Header from './Pages/Shared/Header/Header';
+import { Routes, Route } from 'react-router-dom';
+import Appointment from './Pages/Home/Appointment/Appointment';
+import Home from './Pages/Home/Home/Home';
 
 function App() {
   return (
     <>
       <Header />
-      <Hero />
-      <Services />
-      <Doctors />
-      <Testimonials />
-      <Gallery />
-      <News />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/appointment" element={<Appointment />} />
+      </Routes>
       <Footer />
     </>
   );
