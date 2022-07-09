@@ -30,7 +30,8 @@ const Appointment = () => {
                         <input type="email" placeholder="Your Email" required />
                         <input type="date" required />
                     </div>
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Messages" />
+                    <button className="appointment-btn-coral submit" type="submit">Make An Appointment</button>
                 </form>
             </div>
         </>

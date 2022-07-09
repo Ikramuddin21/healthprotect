@@ -43,7 +43,7 @@ const Header = () => {
           <Link to="/"><img src={logo} width="68" alt="Logo" /></Link>
           <ul className="list-items d-flex items-center">
             <li><Link to="/home">Home</Link></li>
-            <li><Link to="/services">Services</Link></li>
+            <li><Link to="/doctors">Doctors</Link></li>
             <li><Link to="/about">About</Link></li>
             <li><Link to="/shop">Shop</Link></li>
           </ul>

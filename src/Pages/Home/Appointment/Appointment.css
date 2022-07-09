@@ -5,7 +5,7 @@
 }
 
 .appointment h1 {
-    margin-bottom: 80px;
+    margin-bottom: 60px;
     font-size: 40px;
 }
 
@@ -19,6 +19,7 @@
     padding-left: 10px;
     font-size: 17px;
     transition: 0.3s;
+    color: gray;
 }
 
 .appointment select:hover,
@@ -28,5 +29,19 @@
 
 .appointment textarea {
     width: 80%;
+    margin-bottom: 20px;
+    padding-left: 10px;
     font-size: 17px;
+    color: gray;
+}
+
+.appointment .submit {
+    display: block;
+    background: coral;
+    width: 80%;
+}
+
+.appointment .submit:hover {
+    background: none;
+    color: black;
 }

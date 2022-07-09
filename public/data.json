@@ -158,6 +158,44 @@
             "title": "Neuromedicine",
             "img": "doctor6.jpg"
         }
+    ],
+    "products": [
+        {
+            "id": 1,
+            "img": "https://i.ibb.co/KWFXyLM/medicine.png",
+            "title": "Medicine",
+            "price": 374
+        },
+        {
+            "id": 2,
+            "img": "https://i.ibb.co/TKtS5Cj/neutrogena.png",
+            "title": "Neutrogena",
+            "price": 197
+        },
+        {
+            "id": 3,
+            "img": "https://i.ibb.co/NN6MBdY/spray.png",
+            "title": "Spray",
+            "price": 235
+        },
+        {
+            "id": 4,
+            "img": "https://i.ibb.co/Rhn0vth/wheel-chair.png",
+            "title": "Wheel Chair",
+            "price": 543
+        },
+        {
+            "id": 5,
+            "img": "https://i.ibb.co/30cgmb5/colgate.png",
+            "title": "Colgate",
+            "price": 99
+        },
+        {
+            "id": 6,
+            "img": "https://i.ibb.co/dQHzN1p/face-scrub.png",
+            "title": "Face Scrub",
+            "price": 452
+        }
     ]
 }
 

@@ -1,9 +1,14 @@
 import React from 'react';
 import { useEffect } from 'react';
 import { useState } from 'react';
+import { useLocation } from 'react-router-dom';
+import HeroRoute from '../../Shared/HeroRoute/HeroRoute';
+import News from '../../Shared/News/News';
 import './Doctors.css';
 
 const Doctors = () => {
+
+    const {pathname} = useLocation();
 
     const [doctors, setDoctors] = useState([]);
 
@@ -14,23 +19,26 @@ const Doctors = () => {
     }, []);
 
     return (
-        <div className="doctors">
-            <div className="doctors-wrapper">
-                <h2>Professional Medical Team</h2>
-                <div>
-                    {
-                        doctors.map(doctor => <div className="doctor" key={doctor.id}>
-                            <img src={require(`../../../images/doctors/${doctor.img}`)} alt="" />
-                            <div className="doctor-text-area">
-                                <h3>{doctor.name}</h3>
-                                <p>{doctor.title}</p>
-                            </div>
-                        </div>)
-                    }
+        <>
+        {pathname === "/doctors" && <HeroRoute />}
+            <div className="doctors">
+                <div className="doctors-wrapper">
+                    <h2>Professional Medical Team</h2>
+                    <div>
+                        {
+                            doctors.map(doctor => <div className="doctor" key={doctor.id}>
+                                <img src={require(`../../../images/doctors/${doctor.img}`)} alt="" />
+                                <div className="doctor-text-area">
+                                    <h3>{doctor.name}</h3>
+                                    <p>{doctor.title}</p>
+                                </div>
+                            </div>)
+                        }
+                    </div>
                 </div>
             </div>
-
-        </div>
+            {pathname === "/doctors" && <News />}
+        </>
     );
 };
 
