@@ -52,16 +52,26 @@
     color: black;
 }
 
-.header-login-btn {
+.header-right {
+    justify-content: center;
+}
+
+.user-photo {
+    width: 45px;
+    border-radius: 100px;
+}
+
+.header-btn {
     border: none;
     color: white;
     background: black;
-    padding: 10px 20px;
+    margin-left: 10px;
+    padding: 10px 15px;
     border-radius: 5px;
     font-size: 16px;
     outline: 3px solid transparent;
 }
 
-.header-login-btn:focus {
+.header-btn:focus {
     outline: 3px solid gray;
 }

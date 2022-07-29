@@ -4,14 +4,18 @@ import { AiOutlinePhone } from 'react-icons/ai';
 import { FiMail } from 'react-icons/fi';
 import logo from '../../../images/logo5.png';
 import './Header.css';
+import useAuth from '../../../hooks/useAuth';
+import emptyImage from '../../../images/empty-image.jpg';
 
 const Header = () => {
+
+  const { user, logout } = useAuth();
 
   const [fixedNav, setFixedNav] = useState(false);
 
   // handle fixed navigation bar
   const handleFixedNav = () => {
-    if(window.scrollY > 350) {
+    if (window.scrollY > 350) {
       setFixedNav(true);
     }
     else {
@@ -47,7 +51,23 @@ const Header = () => {
             <li><Link to="/about">About</Link></li>
             <li><Link to="/shop">Shop</Link></li>
           </ul>
-          <button className="header-login-btn">Login</button>
+          <div className="header-right d-flex items-center">
+            {
+              user.email && user.photoURL && <img className="user-photo" title={user.displayName} src={user.photoURL} alt="" />
+            }
+            {
+              user.email && !user.photoURL && <img className="user-photo" title={user.displayName} src={emptyImage} alt="" />
+            }
+            {
+              user.email ? <button className="header-btn" onClick={logout}>Logout</button> :
+                <Link to="/login-register">
+                  <button className="header-btn">Login</button>
+                </Link>
+            }
+            <Link to="/appointment">
+              <button className="header-btn">Appointment</button>
+            </Link>
+          </div>
         </nav>
       </div>
     </header>

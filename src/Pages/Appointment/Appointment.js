@@ -1,5 +1,5 @@
 import React from 'react';
-import HeroRoute from '../../Shared/HeroRoute/HeroRoute';
+import HeroRoute from '../Shared/HeroRoute/HeroRoute';
 import './Appointment.css';
 
 const Appointment = () => {

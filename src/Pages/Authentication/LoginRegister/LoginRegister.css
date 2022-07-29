@@ -1,0 +1,58 @@
+.authentication-container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 25px;
+    justify-content: center;
+}
+
+.authentication {
+    width: 420px;
+    margin: 50px auto;
+    padding: 60px 0;
+    background: linear-gradient(60deg, rgb(3, 250, 3), greenyellow);
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.authentication form {
+    margin-top: 40px;
+}
+
+.authentication input {
+    width: 80%;
+    height: 30px;
+    margin-top: 15px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    outline: 2px solid transparent;
+}
+
+.authentication input:focus {
+    outline: 3px solid #bbbdc1;
+}
+
+.btn-login {
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    padding: 10px 55px;
+}
+
+.error-message {
+    margin-bottom: 20px;
+    color: red;
+}
+
+.toggle-user {
+    cursor: pointer;
+}
+
+.btn-google {
+    margin-bottom: 0;
+}

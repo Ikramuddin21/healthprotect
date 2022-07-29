@@ -13,7 +13,8 @@
     color: coral;
 }
 
-.appointment select, input {
+.appointment select, 
+.appointment input {
     width: 40%;
     height: 80px;
     padding-left: 10px;

@@ -1,0 +1,27 @@
+.about {
+    max-width: 1300px;
+    margin: 80px auto;
+    padding: 0 25px;
+}
+
+.about-wrapper {
+    justify-content: center;
+}
+
+.about-left img {
+    max-width: 700px;
+}
+
+.about-right {
+    margin-left: 30px;
+}
+
+.about-right h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+}
+
+.about-right p {
+    font-size: 16px;
+    margin-top: 10px;
+}

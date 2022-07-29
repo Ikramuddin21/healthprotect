@@ -3,7 +3,7 @@ import { useEffect } from 'react';
 import { useState } from 'react';
 import { useLocation } from 'react-router-dom';
 import HeroRoute from '../../Shared/HeroRoute/HeroRoute';
-import News from '../../Shared/News/News';
+import News from '../News/News';
 import './Doctors.css';
 
 const Doctors = () => {
